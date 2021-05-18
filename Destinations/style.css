@@ -1,0 +1,115 @@
+.navbar{background-color: rgb(25, 74, 88);
+    text-decoration-style: none;
+    padding: 10px;
+    border:  5px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar a{
+    text-decoration: none;
+    background-color: lavender;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    transition: font-size .5s;
+}
+
+.navbar a:hover{
+    font-size: 25px;
+}
+
+footer{
+    background-color: rgb(131, 131, 170);
+    text-decoration-style: none;
+    padding: 10px;
+    border:  5px solid black;
+    border-radius: 10px;
+}
+
+footer a{
+    text-decoration: none;
+    background-color:rgb(127, 225, 255);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+footer b{
+    text-decoration-style: none;
+    padding: 10px;
+}
+
+.index-color{
+    background-image: linear-gradient(rgb(127, 225, 255),lavender) ;
+    background-repeat: no-repeat;
+}
+
+.planet-color{
+    background-image: linear-gradient(rgb(127, 225, 255),lavender) ;
+    background-repeat: no-repeat;
+}
+
+.stars-color{
+    background-image: linear-gradient(rgb(127, 225, 255),lavender) ;
+    background-repeat: no-repeat;
+}
+
+.galaxies-color{
+    background-image: linear-gradient(rgb(127, 225, 255),lavender) ;
+    background-repeat: no-repeat;
+}
+
+i{
+    font-size: 20px;
+}
+
+.flex-1{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.flex-2{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    background-color: #7a8ef1;
+    border-radius: 10px;
+    
+}
+
+.flex-3{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.flex-4{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+img{
+    border: solid 3px gray;
+    margin: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.p2{
+    border: solid lightslategray 3px;
+    margin: 10px ;
+    background-color: lightsteelblue;
+}
+
+p{
+    width: 200px;
+  text-align: justify;
+}
