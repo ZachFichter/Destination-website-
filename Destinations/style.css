@@ -34,8 +34,15 @@ footer a{
     margin: 10px;
     padding: 5px;
     border-radius: 10px;
-    
+    transition: font-size .5s;
+
 }
+
+footer a:hover{
+    font-size: large;
+    background-color: blueviolet ;
+}
+
 footer b{
     text-decoration-style: none;
     padding: 10px;
@@ -47,17 +54,17 @@ footer b{
 }
 
 .planet-color{
-    background-image: linear-gradient(rgb(127, 225, 255),lavender) ;
+    background-image: linear-gradient(rgb(31, 127, 156),lavender) ;
     background-repeat: no-repeat;
 }
 
 .stars-color{
-    background-image: linear-gradient(rgb(127, 225, 255),lavender) ;
+    background-image: linear-gradient(rgb(127, 140, 255),lavender) ;
     background-repeat: no-repeat;
 }
 
 .galaxies-color{
-    background-image: linear-gradient(rgb(127, 225, 255),lavender) ;
+    background-image: linear-gradient(rgb(127, 255, 244),lavender) ;
     background-repeat: no-repeat;
 }
 
@@ -110,6 +117,25 @@ a{
 }
 
 p{
-    width: 200px;
+    width: 250px;
   text-align: justify;
+  padding: 5px;
+}
+
+.p1{
+    border: solid lightslategray 3px;
+    margin: 10px ;
+    background-color: lightsteelblue;
+}
+
+.p3{
+    border: solid lightslategray 3px;
+    margin: 10px ;
+    background-color: lightsteelblue;
+}
+
+.p4{
+    border: solid lightslategray 3px;
+    margin: 10px ;
+    background-color: lightsteelblue;
 }
